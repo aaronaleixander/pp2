@@ -9,7 +9,16 @@ error_reporting(E_ALL);
 ?>
 
 <?php
-    echo "PHP Array Practice";
+    echo "PHP Array Practice <br>";
+    $numbers = array(7, 9, 8, 9 ,8, 8, 6);
+
+    function printArray($numbers){
+        foreach($numbers as $value){
+            echo "$value <br>";
+        }
+    }
+
+    printArray($numbers);
 ?>
 
 
