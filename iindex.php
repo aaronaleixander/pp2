@@ -28,7 +28,9 @@ echo "Remove Duplicates: <br>";
 printArray(removeDups($numbers));
 echo "<br>";
 
-
+// How many times does each element show up in the array.
+echo "Distribution: <br>";
+distribution($numbers);
 
 ?>
 
