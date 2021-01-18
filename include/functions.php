@@ -17,3 +17,10 @@ function largest($array){
     }
     return $maxValue;
 }
+
+function removeDups($array){
+    $makeUnique = array_unique($array);
+    $array = array_values($makeUnique);
+    return $array;
+}
+
